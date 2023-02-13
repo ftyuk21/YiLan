@@ -1,0 +1,182 @@
+/*---------------背景---------------*/
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -999;
+}
+
+#main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-width: 3px;
+  border-style: solid;
+  overflow: hidden;
+}
+
+.content {
+  width: 100%;
+}
+
+/*---------------最上面那一塊---------------*/
+/* #top {
+  height: 2vw;
+} */
+
+#logo {
+  height: 6vh;
+  width: 12vw;
+  position: relative;
+  top: 3vh;
+  left: 85vw;
+}
+/* ------第一層------ */
+#Tree {
+  height: 130vw;
+  position: relative;
+}
+
+#Tree_tree {
+  position: absolute;
+    /* background-color: rgba(227, 234, 46, 0.247); */
+    height: 113vw;
+    width: 100%;
+    /* z-index: -1; */
+}
+#Tree_tree svg{
+  overflow: visible;
+}
+
+#Tree_tree>svg>g {
+  transform: scale(1.05) translate(-2%, -4%);
+}
+#trees{
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80vw;
+  padding-top: 20%;
+}
+
+#tree1{
+  /* background-color: rgb(44, 118, 184); */
+  width: 27%;
+  /* height: 20vw; */
+}
+#tree1 svg{
+  position: relative;
+  overflow: visible;
+  top: 30%;
+  right: -10%;
+}
+
+#tree1>svg>g {
+  transform: scale(2.4) translate(-43%, -93%);
+}
+#tree2{
+  /* background-color: rgb(44, 177, 184); */
+  width: 25%;
+}
+#tree2 svg{
+  position: relative;
+  overflow: visible;
+  top: -10%;
+  right: 10%;
+}
+
+#tree2>svg>g {
+  transform: scale(2.5) translate(-44%, -36%);
+}
+#tree3{
+  /* background-color: rgb(99, 223, 50); */
+  width: 23%;
+}
+#tree3 svg{
+  position: relative;
+  overflow: visible;
+  top: 10%;
+  right: 20%;
+}
+
+#tree3>svg>g {
+  transform: scale(2.6) translate(-39%, 1%);
+}
+#tree4{
+  /* background-color: rgb(184, 119, 44); */
+  width: 25%;
+}
+#tree4 svg{
+  position: relative;
+  overflow: visible;
+  top: -10%;
+  right: 30%;
+}
+
+#tree4>svg>g {
+  transform: scale(2.5)translate(-40%,17%);
+}
+
+/* ------動畫第二層------ */
+#peoplein {
+  height: 92vw;
+  position: relative;
+}
+
+#people {
+  position: absolute;
+    /* background-color: rgba(227, 234, 46, 0.247); */
+    height: 92vw;
+    width: 100%;
+    /* z-index: -1; */
+}
+#people svg{
+  overflow: visible;
+}
+
+#people>svg>g {
+  transform: scale(1.1) translate(0%, -15%);
+}
+
+
+/* ------動畫第三層------ */
+#Trans {
+  height: 100vw;
+  position: relative;
+}
+
+#train{
+  position: relative;
+  /* background-color: blueviolet; */
+  height: 183vw;
+  width: 100%;
+  
+}
+#train svg{
+  overflow: visible;
+}
+
+#train>svg>g {
+  transform: scale(1) translate(0%, -30%);
+}
+/* ------動畫第四層------ */
+#devCity {
+  height: 100vw;
+  position: relative;
+}
+#city{
+  position: relative;
+  /* background-color: rgba(137, 43, 226, 0.405); */
+  height: 112vw;
+  width: 100%;
+  z-index: -1;
+}
+
+#city>svg>g {
+  transform: scale(1) translate(0%,-2%);
+}
