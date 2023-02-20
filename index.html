@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="/CSS/menu.css">
+    <style>
+        #logo {
+            height: 5vh;
+            width: 10vw;
+            position: relative;
+            top: 5vh;
+            left: 85vw;
+        }
+
+        #logo img {
+            width: 9%;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="/IMG/關於我們.jpg" alt="" style="width:100vw; overflow:hidden; position:relative;">
+    <a id="logo" href="index.html"><img src="/IMG/日出北橫.png" alt=""></a>
+    <div class="menuContainer"></div>
+
+    <script src="/JS/menu.js"></script>
+    <script>
+        $(".menuContainer").load("menu.html");
+    </script>
+</body>
+
+</html>
